@@ -1,13 +1,14 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+#include <fmt/format.h>
 
 int main() {
-    cout << "Hello World\n";
-    cout << "Input: ";
-    string data;
-    getline(cin, data);
-    cout << "Output: " << data << "\n\n";
-    return 0;
+  std::cout << "Hello World\nInput: ";
+
+  std::string data;
+  getline(std::cin, data);
+
+  std::cout << fmt::format("Output: {}\n", data);
+  return 0;
 }
