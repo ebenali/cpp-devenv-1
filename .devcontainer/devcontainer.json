@@ -21,7 +21,7 @@
 			"extensions": [
 				"ms-vscode.cpptools",
 				"vscodevim.vim",
-				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cpptools-extension-pack"
 			]
 		}
 	},
